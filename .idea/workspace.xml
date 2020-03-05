@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="438e6348-2eb4-4e5c-890f-c59a75fbe9bb" name="Default Changelist" comment="" />
+    <list default="true" id="438e6348-2eb4-4e5c-890f-c59a75fbe9bb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/video/app/dashboard/views/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/app/dashboard/views/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/app/dashboard/views/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/app/libs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/app/libs/base_rander.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/app/model/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/app/model/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/app/model/video.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/static/bootstrap/css/admin_manager.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/static/bootstrap/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/static/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/static/bootstrap/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/static/bootstrap/css/video.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/static/bootstrap/css/video_sub.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/static/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/static/bootstrap/js/dashboard/video_edit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/static/bootstrap/js/jquery-1.12.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/templates/dashboard/auth/admin_manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/templates/dashboard/auth/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/templates/dashboard/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/templates/dashboard/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/templates/dashboard/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/templates/dashboard/video/externa_video.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/video/templates/dashboard/video/video_sub.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43c0b961-777b-4803-b4da-012ebf78ce88.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43c0b961-777b-4803-b4da-012ebf78ce88.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/app/client/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/video/app/client/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/app/dashboard/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/video/app/dashboard/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/video/app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/video/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/video/config/urls.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/muke_video_test$base.coverage" NAME="base Coverage Results" MODIFIED="1582986789321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/video/app/dashboard/views" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -41,19 +77,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video/config/settings.py">
+        <entry file="file://$PROJECT_DIR$/video/app/dashboard/views/video.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="64" column="27" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="27" />
+            <state relative-caret-position="339">
+              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="e#16#53#0" expanded="true" />
+                <element signature="e#219#1102#0" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video/app/client/urls.py">
+        <entry file="file://$PROJECT_DIR$/video/app/model/video.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="-305">
+              <caret line="64" column="54" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="54" />
+              <folding>
+                <element signature="e#95#204#0" />
+                <element signature="e#387#424#0" />
+                <element signature="e#510#609#0" />
+                <element signature="e#775#1460#0" />
+                <element signature="e#2032#2550#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/video/templates/dashboard/video/video_sub.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
+              <folding>
+                <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,40 +120,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/video/app/dashboard/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video/config/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video/config/asgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/43c0b961-777b-4803-b4da-012ebf78ce88/console.sql">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/video/app/apps.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="28">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="363">
+              <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+              <folding>
+                <element signature="e#15#43#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +135,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -112,6 +145,7 @@
     <findStrings>
       <find>video</find>
       <find>vedio</find>
+      <find>name</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -127,11 +161,42 @@
         <option value="$PROJECT_DIR$/video/video/wsgi.py" />
         <option value="$PROJECT_DIR$/video/video/settings.py" />
         <option value="$PROJECT_DIR$/video/config/wsgi.py" />
-        <option value="$PROJECT_DIR$/video/config/settings.py" />
         <option value="$PROJECT_DIR$/video/app/app_urls.py" />
         <option value="$PROJECT_DIR$/video/app/apps.py" />
-        <option value="$PROJECT_DIR$/video/config/urls.py" />
+        <option value="$PROJECT_DIR$/video/app/libs/__init__.py" />
+        <option value="$PROJECT_DIR$/video/app/dashboard/views.py" />
+        <option value="$PROJECT_DIR$/video/templates/base.html" />
         <option value="$PROJECT_DIR$/video/app/client/urls.py" />
+        <option value="$PROJECT_DIR$/video/config/urls.py" />
+        <option value="$PROJECT_DIR$/video/templates/dashboard/env.html" />
+        <option value="$PROJECT_DIR$/video/config/settings.py" />
+        <option value="$PROJECT_DIR$/video/static/bootstrap/css/login.css" />
+        <option value="$PROJECT_DIR$/video/templates/dashboard/auth/admin.html" />
+        <option value="$PROJECT_DIR$/video/templates/dashboard/nav.html" />
+        <option value="$PROJECT_DIR$/video/app/dashboard/views/base.py" />
+        <option value="$PROJECT_DIR$/video/app/dashboard/views/login.py" />
+        <option value="$PROJECT_DIR$/video/static/bootstrap/css/admin_manager.css" />
+        <option value="$PROJECT_DIR$/video/templates/dashboard/index.html" />
+        <option value="$PROJECT_DIR$/video/static/bootstrap/css/base.css" />
+        <option value="$PROJECT_DIR$/video/templates/dashboard/auth/login.html" />
+        <option value="$PROJECT_DIR$/video/app/libs/base_rander.py" />
+        <option value="$PROJECT_DIR$/video/templates/dashboard/auth/admin_manager.html" />
+        <option value="$PROJECT_DIR$/video/app/dashboard/views/auth.py" />
+        <option value="$PROJECT_DIR$/video/app/model/__init__.py" />
+        <option value="$PROJECT_DIR$/video/app/model/auth.py" />
+        <option value="$PROJECT_DIR$/video/app/models.py" />
+        <option value="$PROJECT_DIR$/video/static/bootstrap/js/dashboard/video_js.js" />
+        <option value="$PROJECT_DIR$/video/static/bootstrap/js/jquery-1.12.4.min.js" />
+        <option value="$PROJECT_DIR$/video/static/bootstrap/js/dashboard/video.js" />
+        <option value="$PROJECT_DIR$/video/templates/dashboard/base.html" />
+        <option value="$PROJECT_DIR$/video/static/bootstrap/js/dashboard/video_edit.js" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
+        <option value="$PROJECT_DIR$/video/static/bootstrap/css/video.css" />
+        <option value="$PROJECT_DIR$/video/templates/dashboard/video/externa_video.html" />
+        <option value="$PROJECT_DIR$/video/app/model/video.py" />
+        <option value="$PROJECT_DIR$/video/static/bootstrap/css/video_sub.css" />
+        <option value="$PROJECT_DIR$/video/templates/dashboard/video/video_sub.html" />
+        <option value="$PROJECT_DIR$/video/app/dashboard/views/video.py" />
         <option value="$PROJECT_DIR$/video/app/dashboard/urls.py" />
       </list>
     </option>
@@ -147,7 +212,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -171,39 +235,94 @@
               <item name="muke_video_test" type="462c0819:PsiDirectoryNode" />
               <item name="video" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="muke_video_test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="muke_video_test" type="462c0819:PsiDirectoryNode" />
-              <item name="video" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="dashboard" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="muke_video_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="muke_video_test" type="462c0819:PsiDirectoryNode" />
               <item name="video" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="muke_video_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muke_video_test" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="muke_video_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muke_video_test" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="muke_video_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muke_video_test" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="muke_video_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muke_video_test" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="muke_video_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muke_video_test" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="muke_video_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muke_video_test" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="muke_video_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="muke_video_test" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\小新15\PycharmProjects\muke_video_test\video\static\bootstrap\js" />
+      <recent name="C:\Users\小新15\PycharmProjects\muke_video_test\video\static\bootstrap\css" />
       <recent name="C:\Users\小新15\PycharmProjects\muke_video_test\video\app\dashboard" />
       <recent name="C:\Users\小新15\PycharmProjects\muke_video_test\video\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\小新15\PycharmProjects\muke_video_test\video\static\bootstrap\js\dashboard" />
+      <recent name="C:\Users\小新15\PycharmProjects\muke_video_test\video\static\bootstrap\js" />
+      <recent name="C:\Users\小新15\PycharmProjects\muke_video_test\video\templates\dashboard" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -218,6 +337,35 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="base" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="muke_video_test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/video/app/dashboard/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/video/app/dashboard/views/base.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.base" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -230,37 +378,68 @@
       <updated>1582897852049</updated>
       <workItem from="1582897854602" duration="803000" />
       <workItem from="1582898685995" duration="7070000" />
+      <workItem from="1582989195592" duration="1015000" />
+      <workItem from="1582990235203" duration="313000" />
+      <workItem from="1582990572131" duration="253000" />
+      <workItem from="1582990851028" duration="23002000" />
+      <workItem from="1583244076666" duration="7017000" />
+      <workItem from="1583302835932" duration="27589000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7874000" />
+    <option name="totallyTimeSpent" value="72858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25670242" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16554959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Console" weight="0.3286119" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3286119" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.25070822" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Database" order="4" visible="true" weight="0.18230563" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Database Changes" order="9" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3186969" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3297587" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -289,20 +468,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video/app/dashboard/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/video/app/client/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/video/manage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -321,20 +486,266 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/video/config/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="28">
-          <caret line="64" column="27" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/43c0b961-777b-4803-b4da-012ebf78ce88/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/video/static/bootstrap/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/static/bootstrap/js/bootstrap.min.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/app/libs/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/app/dashboard/views.py" />
+    <entry file="file://$PROJECT_DIR$/video/app/client/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/config/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="107" column="16" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/video/config/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="203">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/static/bootstrap/css/admin_manager.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/app/libs/base_rander.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="28" column="39" lean-forward="true" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="39" />
+          <folding>
+            <element signature="e#15#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/app/model/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/app/model/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="51" selection-start-line="1" selection-start-column="51" selection-end-line="1" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/app/dashboard/views/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding>
+            <element signature="e#15#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/app/dashboard/views/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/static/bootstrap/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="44" column="1" selection-start-line="44" selection-start-column="1" selection-end-line="44" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/static/bootstrap/css/login.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/templates/dashboard/auth/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="21" selection-start-line="21" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/templates/dashboard/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/templates/dashboard/nav.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="44" />
+          <folding>
+            <element signature="n#style#0;n#a#1;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/static/bootstrap/js/dashboard/video_js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/app/migrations/0001_initial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/static/bootstrap/js/jquery-1.12.4.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="4951" selection-start-line="2" selection-start-column="4951" selection-end-line="2" selection-end-column="4951" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/static/bootstrap/js/dashboard/video">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/templates/dashboard/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/static/bootstrap/js/dashboard/video_edit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://43c0b961-777b-4803-b4da-012ebf78ce88/schema/muke_video/table/app_video">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/static/bootstrap/css/video.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://43c0b961-777b-4803-b4da-012ebf78ce88/schema/muke_video/table/app_videosub">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/static/bootstrap/css/video_sub.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/templates/dashboard/auth/admin_manager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="20" column="65" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/templates/dashboard/video/externa_video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="15" column="101" lean-forward="true" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="101" />
+          <folding>
+            <element signature="e#318#371#0" />
+            <element signature="e#382#2250#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/app/model/video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="64" column="54" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="54" />
+          <folding>
+            <element signature="e#95#204#0" />
+            <element signature="e#387#424#0" />
+            <element signature="e#510#609#0" />
+            <element signature="e#775#1460#0" />
+            <element signature="e#2032#2550#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/templates/dashboard/video/video_sub.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
+          <folding>
+            <element signature="n#style#0;n#h4#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/app/dashboard/views/video.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="e#16#53#0" expanded="true" />
+            <element signature="e#219#1102#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/video/app/dashboard/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="15" column="55" selection-start-line="15" selection-start-column="55" selection-end-line="15" selection-end-column="55" />
+          <folding>
+            <element signature="e#15#43#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

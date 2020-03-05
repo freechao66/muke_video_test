@@ -1,0 +1,42 @@
+<%inherit file="../base.html"/>
+<%def name="content()">
+<%! from django.shortcuts import  reverse %>
+<%! from app.model.video import IdentityType   %>
+<h2>${video.name}</h2>
+<br>
+%if error:
+<h4 style="color: red">${error}</h4>
+%endif
+<h3>集数</h3>
+%for video_sub in video.video_sub.all():
+<h4><a href="${video_sub.url}">>>>第${video_sub.number}集</a></h4>
+%endfor
+<h3>演员</h3>
+<ul>
+    %for video_star in video.video_star.all():
+    <li><a href="${reverse('star_delete',kwargs={'star_id':video_star.id,'video_id':video.id})}">${video_star.name}&nbsp&nbsp&nbsp${video_star.identity}</a>
+    </li>
+    %endfor
+</ul>
+<br>
+<form class="form-horizontal add-video-area add-url" id="video-edit-area" method="POST">${csrf_token}
+    <label>添加地址</label><input type="text" name="url" class="form-control"/><br>
+    <input type="submit" value="添加" class="btn btn-info" id="add-url-btn">
+</form>
+
+<form class="form-horizontal add-video-area add-url" action="${reverse('video_star')}" method="POST">${csrf_token}
+    <label>添加演员</label><input type="text" name="star" class="form-control"/><br>
+    <label>添加身份</label>
+    <select class="star-select" name="identity">
+        %for identity in IdentityType:
+        <option value="${identity.value}">${identity.value}</option>
+        %endfor
+    </select>
+    <input type="hidden" value="${video.id}" name="video_id">
+    <input type="submit" value="添加" class="btn btn-info" id="add-star-btn">
+</form>
+
+</%def>
+<%def name="css()">
+<link href="/static/bootstrap/css/video_sub.css" rel="stylesheet"/>
+</%def>
